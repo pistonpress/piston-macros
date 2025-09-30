@@ -1,4 +1,4 @@
-use drift_macros::assert_no_slop;
+use piston_macros::assert_no_slop;
 use static_assertions::const_assert_eq;
 
 #[assert_no_slop]
